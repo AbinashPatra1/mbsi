@@ -107,5 +107,8 @@
       }
     }
   },
-  "defaultProject": "mbsi.github.io"
+  "defaultProject": "mbsi.github.io",
+  "cli": {
+    "analytics": "e283ad1a-b42f-41db-bb62-9edc0b4297cd"
+  }
 }
