@@ -9,10 +9,417 @@
   },
   {
     "id": 1,
-    "name": "Albert Einstein",
-    "DOB": "14 March 1879",
-    "DOD": "18 April 1955",
-    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Einstein_1921_by_F_Schmutzer_-_restoration.jpg",
-    "description": "Albert Einstein is often cited as one of the most influential scientists of the 20th century. His work continues to help astronomers study everything from gravitational waves to Mercury's orbit. The scientist's equation that helped explain special relativity – E = mc^2 – is famous even among those who don't understand its underlying physics. Einstein is also known for his theory of general relativity (an explanation of gravity), and the photoelectric effect (which explains the behavior of electrons under certain circumstances); his work on the latter earned him a Nobel Prize in Physics in 1921."
+    "name": "Alexander Fleming",
+    "DOB": "6 August 1881",
+    "DOD": "11 March 1955",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Synthetic_Production_of_Penicillin_TR1468.jpg",
+    "description": "Alexander felming."
+  },
+  {
+    "id": 2,
+    "name": "Antonie Van Leeuwenhoek",
+    "DOB": "24 October 1632",
+    "DOD": " 26 August 1723",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Anthonie_van_Leeuwenhoek_%281632-1723%29._Natuurkundige_te_Delft_Rijksmuseum_SK-A-957.jpeg",
+    "description": "AVL"
+  },
+  {
+    "id": 3,
+    "name": "Edward Jenner",
+    "DOB": "17 May 1749",
+    "DOD": " 26 January 1823",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/b/be/Edward_Jenner.jpg",
+    "description": "EJ"
+  },
+  {
+    "id": 4,
+    "name": "Ignaz Philipp Semmelweis",
+    "DOB": "1 July 1818",
+    "DOD": "  13 August 1865",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Borsos_%26_Doctor_Semmelweis_Ign%C3%A1c_cropped.jpg",
+    "description": "EJ"
+  },
+
+  {
+    "id": 5,
+    "name": "Hans Christian Joachim Gram",
+    "DOB": "1 July 1818",
+    "DOD": "  13 August 1865",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/5/51/Hans_Christian_Gram_portrait_by_Hansen_%26_Weller.jpg",
+    "description": "HCJG"
+  },
+  {
+    "id": 6,
+    "name": "Charles Louis Alphonse Laveran",
+    "DOB": "18 June 1845 ",
+    "DOD": "18 May 1922",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Charles_Laveran_nobel.jpg",
+    "description": "CLAL"
+  },
+  {
+    "id": 7,
+    "name": "Joseph Lister",
+    "DOB": "5 April 1827 ",
+    "DOD": " 10 February 1912",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Joseph_Lister_1902.jpg",
+    "description": "JL"
+  },
+  {
+    "id": 8,
+    "name": "Fanny Hesse ",
+    "DOB": " 22 June 1850 ",
+    "DOD": " 1 December 1934",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Fanny_Eilshemius_Hesse.jpg",
+    "description": "FH"
+  },
+  {
+    "id": 9,
+    "name": "Martinus Willem Beijerinck",
+    "DOB": "16 March 1851 ",
+    "DOD": " 1 January 1931",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/5/51/Martinus_Willem_Beijerinck.png",
+    "description": "MWB"
+  },
+  {
+    "id": 10,
+    "name": "Marjory Stephenson",
+    "DOB": "24 January 1885 ",
+    "DOD": " 12 December 1948",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/en/7/75/Marjory_Stephenson_1930s.jpg",
+    "description": "MS"
+  },
+  {
+    "id": 11,
+    "name": "Kiyoshi Shiga",
+    "DOB": "7 February 1871 ",
+    "DOD": " 25 January 1957",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Kiyoshi_Shiga.jpg",
+    "description": "KS"
+  },
+  {
+    "id": 12,
+    "name": "Sergei Nikolaievich Winogradsky ",
+    "DOB": "1 September 1856 ",
+    "DOD": " 25 February 1953",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Winogradsky_signature_%28cropped%29.jpg",
+    "description": "SNW"
+  },
+  {
+    "id": 13,
+    "name": "Emil von Behring ",
+    "DOB": "15 March 1854 ",
+    "DOD": " 31 March 1917",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/5/52/Emil_von_Behring_sitzend.jpg",
+    "description": "EVB"
+  },
+  {
+    "id": 14,
+    "name": "Sir Ronald Ross",
+    "DOB": "13 May 1857",
+    "DOD": " 6 September 1932",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/7/76/Ronald_Ross.jpg",
+    "description": "RR"
+  },
+  {
+    "id": 15,
+    "name": "Heinrich Hermann Robert Koch",
+    "DOB": "11 December 1843 ",
+    "DOD": " 27 May 1910",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/8/8d/RobertKoch_cropped.jpg",
+    "description": "HHRK"
+  },
+  {
+    "id": 16,
+    "name": "Julius Wagner-Jauregg ",
+    "DOB": "7 March 1857 ",
+    "DOD": " 27 September 1940",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Julius_Wagner-Jauregg_ohne_Unterschrift.jpg",
+    "description": "JWJ"
+  },
+  {
+    "id": 17,
+    "name": "Charles Jules Henri Nicolle",
+    "DOB": "21 September 1866",
+    "DOD": "28 February 1936",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/2/26/Charles_Nicolle_at_microscope.jpg",
+    "description": "CJHN"
+  },
+  {
+    "id": 18,
+    "name": "Gerhard Johannes Paul Domagk",
+    "DOB": "30 October 1895",
+    "DOD": "24 April 1964",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/d/df/Gerhard_Domagk_nobel.jpg",
+    "description": "GJPD"
+  },
+  {
+    "id": 19,
+    "name": "Sir Ernst Boris Chain ",
+    "DOB": "19 June 1906",
+    "DOD": "12 August 1979",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Ernst_Boris_Chain_1945.jpg",
+    "description": "SEBC"
+  },
+  {
+    "id": 20,
+    "name": "Howard Walter Florey, Baron Florey ",
+    "DOB": "24 September 1898",
+    "DOD": "21 February 1968",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Sir_Howard_Florey.jpg",
+    "description": "HWF"
+  },
+  {
+    "id": 21,
+    "name": "Max Theiler",
+    "DOB": "30 January 1899",
+    "DOD": "11 August 1972",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Max_Theiler_nobel.jpg",
+    "description": "HWF"
+  },
+  {
+    "id": 22,
+    "name": "Selman Abraham Waksman",
+    "DOB": "22 July 1888",
+    "DOD": "16 August 1973",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/3/33/Selman_Waksman_NYWTS.jpg",
+    "description": "SAW"
+  },
+  {
+    "id": 23,
+    "name": "Stanley Norman Cohen",
+    "DOB": "17 February 1935",
+    "DOD": "-",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/7/70/Stanley_Norman_Cohen_DSC_2027.jpg",
+    "description": "SNC"
+  },
+  {
+    "id": 24,
+    "name": "Herbert Wayne 'Herb' Boyer ",
+    "DOB": "10 July 1936",
+    "DOD": "-",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Herbert_Boyer_HD2005_Winthrop_Sears_Medal.JPG",
+    "description": "HB"
+  },
+  {
+    "id": 25,
+    "name": "Georges Jean Franz Köhler",
+    "DOB": "17 April 1946 ",
+    "DOD": "1 March 1995",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/en/b/b9/Georges_J._F._K%C3%B6hler.jpg",
+    "description": "GJFK"
+  },
+  {
+    "id": 26,
+    "name": "César Milstein",
+    "DOB": "8 October 1927 ",
+    "DOD": "24 March 2002",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Milstein_lnp_restauraci%C3%B3n.jpg",
+    "description": "GJFK"
+  },
+  {
+    "id": 27,
+    "name": "Pushpa Mittra Bhargava",
+    "DOB": "22 February 1928",
+    "DOD": " 1 August 2017 ",
+    "description": "PMB"
+  },
+  {
+    "id": 28,
+    "name": "Károly Ereky ",
+    "DOB": " 20 October 1878",
+    "DOD": " 17 June 1952 ",
+    "description": "KE"
+  },
+  {
+    "id": 30,
+    "name": "Rudolf Jaenisch ",
+    "DOB": " 22 April 1942",
+    "DOD": " - ",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Jaenisch_2003_by_Sam_Ogden.jpg",
+    "description": "RJ"
+  },
+  {
+    "id": 31,
+    "name": "Paul Berg  ",
+    "DOB": " 30 June 1926",
+    "DOD": " 15 February 2023 ",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/8/88/Paul_Berg_in_1980.jpg",
+    "description": "PB"
+  },
+  {
+    "id": 32,
+    "name": "Vinay K. Nandicoori",
+    "DOB": "  1 March 1969",
+    "DOD": " - ",
+    "description": "VKN"
+  },
+  {
+    "id": 33,
+    "name": "Sudhanshu Vrati ",
+    "DOB": "  19 March 1960 ",
+    "DOD": " - ",
+    "description": "SV"
+  },
+  {
+    "id": 34,
+    "name": "Motilal Madan ",
+    "DOB": " 1 january 1939",
+    "DOD": " - ",
+    "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/a/a9/MLMADAN.jpg",
+    "description": "MM"
+  },
+  {
+    "id": 35,
+    "name": "Banwari Lal ",
+    "DOB": " 1 July 1960",
+    "DOD": " - ",
+    "imageURL" : "-",
+    "description": "BL"
+  },
+  {
+    "id": 36,
+    "name": "Keith Henry Stockman Campbel ",
+    "DOB": " 23 May 1954",
+    "DOD": " 5 October 2012",
+    "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/1/16/Keith_Campbell.jpg",
+    "description": "BL"
+  },
+  {
+    "id": 37,
+    "name": "Sir Ian Wilmut ",
+    "DOB": "  7 July 1944 ",
+    "DOD": " -",
+    "imageURL" : "-",
+    "description": "IW"
+  },
+  {
+    "id": 38,
+    "name": "Piet Bergveld ",
+    "DOB": "  26 January 1940",
+    "DOD": " -",
+    "imageURL" : "-",
+    "description": "PB"
+  },
+  {
+    "id": 39,
+    "name": "Arthur D. Riggs",
+    "DOB": " 8  August 1939  ",
+    "DOD": " 23 March 2022",
+    "imageURL" : "-",
+    "description": "ADR"
+  },
+  {
+    "id": 40,
+    "name": "Emmanuelle Marie Charpentier",
+    "DOB": " 11 December 1968 ",
+    "DOD": " -",
+    "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/6/66/Emmanuelle_Charpentier.jpg",
+    "description": "EMC"
+  },
+  {
+    "id": 41,
+    "name": "Jennifer Anne Doudna ",
+    "DOB": " 19 February 1964",
+    "DOD": " -",
+    "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/7/7e/Jennifer_Doudna_by_Christopher_Michel_in_2023_01.jpg",
+    "description": "JAD"
+  },
+  {
+    "id": 42,
+    "name": "Yuan Longping ",
+    "DOB": "  13 August 1929 ",
+    "DOD": " 22 May 2021 ",
+    "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/7/77/Yuan_Longping_at_news_conference_%28cropped%29.png",
+    "description": "YL"
+  },
+  {
+    "id": 43,
+    "name": "Kary Banks Mullis",
+    "DOB": "  28 December 1944 ",
+    "DOD": " 7 August 2019",
+    "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/7/7f/Kary_Mullis.jpg",
+    "description": "KBM"
+  },
+  {
+    "id": 44,
+    "name": "Gottlieb Haberland",
+    "DOB": "   28 November 1854 ",
+    "DOD": "  30 January 1945",
+    "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/9/9f/Gottlieb_Haberlandt.jpg",
+    "description": "GH"
+  },
+  {
+    "id": 45,
+    "name": "Ross Granville Harrison",
+    "DOB": " 13 January 1870 ",
+    "DOD": "  30 September 1959",
+    "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/6/66/Ross_Granville_Harrison_-_NLM-101417959.jpg",
+    "description": "RGH"
+  },
+  {
+    "id": 46,
+    "name": "Ingo Potrykus",
+    "DOB": " 5 December 1933",
+    "DOD": " -",
+    "imageURL" : "-",
+    "description": "IP"
+  },
+  {
+    "id": 47,
+    "name": "Peter Beyer",
+    "DOB": "   9 May 1952 ",
+    "DOD": "-",
+    "imageURL" : "-",
+    "description": "PB"
+  },
+  {
+    "id": 48,
+    "name": "Frederick Sanger",
+    "DOB": " 13 August 1918 ",
+    "DOD": "19 November 2013",
+    "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/f/f8/Frederick_Sanger2.jpg",
+    "description": "FS"
+  },
+  {
+    "id": 49,
+    "name": "Gregor Mendel ",
+    "DOB": " 20 July 1822 ",
+    "DOD": "6 January 1884",
+    "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/b/ba/Gregor_Mendel_2.jpg",
+    "description": "GM"
+  },
+  {
+    "id": 50,
+    "name": "Rosalind Franklin ",
+    "DOB": " 25 July 1920",
+    "DOD": "16 April 1958",
+    "imageURL" : "https://upload.wikimedia.org/wikipedia/en/e/e9/Rosalind_Franklin_%281920-1958%29.jpg",
+    "description": "RF"
+  },
+  {
+    "id": 51,
+    "name": "Daisy Roulland-Dussoix",
+    "DOB": " 9 September 1936 ",
+    "DOD": " 5 January 2014",
+    "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/c/c0/Daisy_Dussoix.jpg",
+    "description": "DRD"
+  },
+  {
+    "id": 52,
+    "name": "Daniel Nanthans",
+    "DOB": " 30th October 1928 ",
+    "DOD": "16th November 1999",
+    "imageURL" : "https://upload.wikimedia.org/wikipedia/en/8/87/Daniel_Nathans.jpg",
+    "description": "DN"
+  },
+  {
+    "id": 53,
+    "name": "Frederick Sanger",
+    "DOB": " 13 August 1918 ",
+    "DOD": "19 November 2013",
+    "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/f/f8/Frederick_Sanger2.jpg",
+    "description": "FS"
   }
+
+
 ]
