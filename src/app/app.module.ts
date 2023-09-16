@@ -17,13 +17,16 @@ import { MatInputModule } from '@angular/material/input';
 import { MatTableModule } from '@angular/material/table';
 import { MatSelectModule } from '@angular/material/select';
 import { SearchFilterPipe } from './search-filter.pipe';
+import { FooterComponent } from './footer/footer.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    SearchFilterPipe
+    SearchFilterPipe,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
@@ -37,7 +40,8 @@ import { SearchFilterPipe } from './search-filter.pipe';
     MatFormFieldModule,
     MatInputModule,
     MatTableModule,
-    MatSelectModule
+    MatSelectModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { AfterViewInit, Component, OnInit, ViewChild } from '@angular/core';;
 import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
-import { animate, state, style, transition, trigger} from '@angular/animations';
+import { animate, state, style, transition, trigger } from '@angular/animations';
 
 interface Country {
   name: string;
@@ -18,8 +18,8 @@ interface Country {
   styleUrls: ['./home.component.css'],
   animations: [
     trigger('detailExpand', [
-      state('collapsed', style({height: '0px', minHeight: '0'})),
-      state('expanded', style({height: '*'})),
+      state('collapsed', style({ height: '0px', minHeight: '0' })),
+      state('expanded', style({ height: '*' })),
       transition('expanded <=> collapsed', animate('225ms cubic-bezier(0.4, 0.0, 0.2, 1)')),
     ]),
   ],
@@ -28,7 +28,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
 
   searchTerm = '';
 
-  displayedColumns: string[] = ['Flag', 'Name', 'Area', 'Population'];
+  displayedColumns: string[] = ['Image', 'Name', 'DOB', 'DOD'];
   public dataSource: MatTableDataSource<any> = new MatTableDataSource<Country>();
   public tableData: MatTableDataSource<any> = new MatTableDataSource<Country>();
   @ViewChild(MatSort) sort!: MatSort;
@@ -52,7 +52,12 @@ export class HomeComponent implements OnInit, AfterViewInit {
     this.tableData.filteredData = [];
     this.tableData.filter = searchTerm.trim().toLocaleLowerCase();
     const filterValue = searchTerm;
-    this.tableData.filter = filterValue.trim().toLowerCase();
+    if (searchTerm.trim() == "") {
+      this.tableData.filteredData = [];
+    }
+    else {
+      this.tableData.filter = filterValue.trim().toLowerCase();
+    }
   }
 
   onMatSortChange() {

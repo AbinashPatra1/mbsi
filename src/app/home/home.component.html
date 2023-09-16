@@ -2,7 +2,7 @@
     <mat-form-field appearance="fill" style="    width: 70%;
     justify-self: center;">
         <mat-label>Search scientists by name</mat-label>
-        <input matInput [(ngModel)]="searchTerm" placeholder="Search country by name"
+        <input matInput [(ngModel)]="searchTerm" placeholder="Search scientists by name"
             (ngModelChange)="filterCountries(searchTerm)" />
         <mat-icon class='search-icon' color="primary" matPrefix (click)="filterCountries(searchTerm)">search</mat-icon>
     </mat-form-field>
@@ -11,35 +11,33 @@
         (matSortChange)="onMatSortChange()" matSortDirection="asc" multiTemplateDataRows class="mat-elevation-z8" style="width: 70%;
         justify-self: center;">
         <!-- Position Column -->
-        <ng-container matColumnDef="Flag">
-            <th mat-header-cell *matHeaderCellDef>Flag</th>
+        <ng-container matColumnDef="Image">
+            <th mat-header-cell *matHeaderCellDef></th>
             <td mat-cell *matCellDef="let element">
-                <img [src]="
-              'https://upload.wikimedia.org/wikipedia/commons/' + element.flag
-            " height="50" width="50" alt="country flag" />
+                <img [src]="element.imageURL" height="50" width="50" alt="img" />
             </td>
         </ng-container>
 
         <!-- Position Column -->
         <ng-container matColumnDef="Name">
             <th mat-header-cell *matHeaderCellDef mat-sort-header="name">
-                Country Name
+                Name
             </th>
             <td mat-cell *matCellDef="let element">{{ element.name }}</td>
         </ng-container>
 
         <!-- Name Column -->
-        <ng-container matColumnDef="Area">
-            <th mat-header-cell *matHeaderCellDef mat-sort-header="area">Area</th>
-            <td mat-cell *matCellDef="let element">{{ element.area }}</td>
+        <ng-container matColumnDef="DOB">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header="dob">DOB</th>
+            <td mat-cell *matCellDef="let element">{{ element.DOB }}</td>
         </ng-container>
 
         <!-- Weight Column -->
-        <ng-container matColumnDef="Population">
-            <th mat-header-cell *matHeaderCellDef mat-sort-header="population">
-                Population
+        <ng-container matColumnDef="DOD">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header="dod">
+                DOD
             </th>
-            <td mat-cell *matCellDef="let element">{{ element.population }}</td>
+            <td mat-cell *matCellDef="let element">{{ element.DOD }}</td>
         </ng-container>
 
         <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
