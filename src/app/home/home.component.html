@@ -10,7 +10,7 @@
     <table *ngIf="tableData.filteredData.length > 0" mat-table [dataSource]="tableData" matSort
         (matSortChange)="onMatSortChange()" matSortDirection="asc" multiTemplateDataRows class="mat-elevation-z8" style="width: 70%;
         justify-self: center;">
-        <!-- Position Column -->
+        <!-- Image Column -->
         <ng-container matColumnDef="Image">
             <th mat-header-cell *matHeaderCellDef></th>
             <td mat-cell *matCellDef="let element">
@@ -18,7 +18,7 @@
             </td>
         </ng-container>
 
-        <!-- Position Column -->
+        <!-- Name Column -->
         <ng-container matColumnDef="Name">
             <th mat-header-cell *matHeaderCellDef mat-sort-header="name">
                 Name
@@ -26,13 +26,13 @@
             <td mat-cell *matCellDef="let element">{{ element.name }}</td>
         </ng-container>
 
-        <!-- Name Column -->
+        <!-- DOB Column -->
         <ng-container matColumnDef="DOB">
             <th mat-header-cell *matHeaderCellDef mat-sort-header="dob">DOB</th>
             <td mat-cell *matCellDef="let element">{{ element.DOB }}</td>
         </ng-container>
 
-        <!-- Weight Column -->
+        <!-- DOD Column -->
         <ng-container matColumnDef="DOD">
             <th mat-header-cell *matHeaderCellDef mat-sort-header="dod">
                 DOD
@@ -40,7 +40,7 @@
             <td mat-cell *matCellDef="let element">{{ element.DOD }}</td>
         </ng-container>
 
-        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
-        <tr mat-row *matRowDef="let row; columns: displayedColumns" class="example-detail-row"></tr>
+        <tr mat-header-row *matRowDef="let row; columns: displayedColumns" class="table-row"
+            (click)="openDetailsPage(row)"></tr>
     </table>
 </div>

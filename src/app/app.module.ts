@@ -19,6 +19,7 @@ import { MatSelectModule } from '@angular/material/select';
 import { SearchFilterPipe } from './search-filter.pipe';
 import { FooterComponent } from './footer/footer.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ScientistDetailsComponent } from './scientist-details/scientist-details.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     HeaderComponent,
     HomeComponent,
     SearchFilterPipe,
-    FooterComponent
+    FooterComponent,
+    ScientistDetailsComponent
   ],
   imports: [
     BrowserModule,

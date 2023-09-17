@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="top-row">
+        <div class="scientist-name">
+            <span class="head-font">{{scientistDetails.name}}</span>
+            <span class="head-font"> ({{scientistDetails.DOB}} - {{scientistDetails.DOD}}) </span>
+        </div>
+        <div class="scientist-image">
+            <img [src]="scientistDetails.imageURL" height="150" width="150" alt="img" />
+        </div>
+    </div>
+    <hr>
+    <div class="description">
+        {{scientistDetails.description}}
+    </div>
+</div>
