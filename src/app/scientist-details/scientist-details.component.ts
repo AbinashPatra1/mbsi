@@ -21,9 +21,7 @@ export class ScientistDetailsComponent implements OnInit {
       this.router.navigate(['/home']);
     }
     else{
-      this.common.getScientistById(parseInt(this.scientistId.id)).subscribe(data => {
-        this.scientistDetails = data;
-      });
+      this.scientistDetails = this.common.getScientistById(parseInt(this.scientistId.id));
     }
   }
 

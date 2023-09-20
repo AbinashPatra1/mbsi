@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { BehaviorSubject, Observable, Subject, filter, map } from 'rxjs';
+import { BehaviorSubject, Observable, Subject, filter, map, take } from 'rxjs';
 
 interface Country {
   name: string;
@@ -14,22 +14,21 @@ interface Country {
 })
 export class CommonService {
 
-  private jsonDataSubject: BehaviorSubject<any> = new BehaviorSubject<any>(null);
-  jsonData$: Observable<any> = this.jsonDataSubject.asObservable();
+  allScientists : any = [];
 
   constructor(private http: HttpClient) {
     this.fetchData();
    }
 
-   private fetchData() {
+   fetchData() {
     this.http.get('./assets/data/countries.json').subscribe((data) => {
-      this.jsonDataSubject.next(data);
+      this.allScientists = data;
+      localStorage.setItem('scientists',JSON.stringify(this.allScientists));
     });
    }
 
-   getScientistById(id: number): Observable<any> {
-    return this.jsonData$.pipe(
-      map((data) => data.find((item: { id: number; }) => item.id === id))
-    );
+   getScientistById(Id: number) {
+    let allData = JSON.parse(localStorage.getItem('scientists')!);
+    return allData.filter((x: { id: number; })=> x.id == Id)[0];
   }
 }

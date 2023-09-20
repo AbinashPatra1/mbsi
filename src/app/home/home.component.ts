@@ -4,6 +4,7 @@ import { AfterViewInit, Component, OnInit, ViewChild } from '@angular/core';;
 import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
 import { Router } from '@angular/router';
+import { CommonService } from './../common.service';
 import { animate, state, style, transition, trigger } from '@angular/animations';
 
 interface Country {
@@ -34,9 +35,10 @@ export class HomeComponent implements OnInit, AfterViewInit {
   public tableData: MatTableDataSource<any> = new MatTableDataSource<Country>();
   @ViewChild(MatSort) sort!: MatSort;
 
-  constructor(private http: HttpClient, private router: Router) { }
+  constructor(private http: HttpClient, private router: Router, private common : CommonService) { }
 
   ngOnInit(): void {
+    this.common.fetchData();
     this.http.get<Country[]>('./assets/data/countries.json')
       .subscribe((data: any) => {
         this.dataSource = new MatTableDataSource<Country>(data);
