@@ -20,6 +20,8 @@ import { SearchFilterPipe } from './search-filter.pipe';
 import { FooterComponent } from './footer/footer.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ScientistDetailsComponent } from './scientist-details/scientist-details.component';
+import { PopUpComponent } from './pop-up/pop-up.component';
+import { MatDialogModule } from '@angular/material/dialog'
 
 @NgModule({
   declarations: [
@@ -28,7 +30,8 @@ import { ScientistDetailsComponent } from './scientist-details/scientist-details
     HomeComponent,
     SearchFilterPipe,
     FooterComponent,
-    ScientistDetailsComponent
+    ScientistDetailsComponent,
+    PopUpComponent
   ],
   imports: [
     BrowserModule,
@@ -43,7 +46,8 @@ import { ScientistDetailsComponent } from './scientist-details/scientist-details
     MatInputModule,
     MatTableModule,
     MatSelectModule,
-    NgbModule
+    NgbModule,
+    MatDialogModule
   ],
   providers: [],
   bootstrap: [AppComponent]
